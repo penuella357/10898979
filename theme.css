@@ -1,0 +1,108 @@
+body{
+    font :15px/1.5 Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 0;
+    margin: 0;
+}
+.brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color: hotpink;
+}
+.container {
+    background-color: rgb(217, 228, 230);
+    
+}
+
+.form{
+    padding: 30px 40px;
+}
+
+.form-control{
+    width: 400px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;border-radius: 12px;
+}
+.form-control label {
+     display: inline;
+     margin-bottom: 5px;
+}
+
+.form-control input{
+    border:3px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form button{
+    background-color: #13044e;
+    color: #fff;
+    border: 2px solid #8e44;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding-top: 30px;
+    min-height: 70px;
+    background:#62b6f5;
+    color: #ffffff;
+    border-bottom: 5px solid #5412be;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px  0 20px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header #design{
+    float: left;
+}
+
+header #design h1{
+    margin: 0;
+}
+header a:hover{
+    color: #be1212;
+    font-weight: bold;
+}
+header .highlight, header .current a{
+
+    color: #611dcf;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #f7f77f;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+.header h2{
+    margin: 0;
+}
+footer {
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgba(59, 22, 73, 0.79);
+}
